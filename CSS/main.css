@@ -1,0 +1,292 @@
+#myBtn {
+  display: none;
+  position: fixed;
+	top:0px;
+  right: 17px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#363;
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -90px;
+    transition: 0.3s;
+    padding: 10px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#tr {
+    top: 20px;
+    background-color:#F00;
+	z-index:88;
+}
+
+#eng {
+    top: 80px;
+   background-color:#009;
+   z-index:88;
+}
+.fa {
+    padding:5px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram{
+	background:#936;
+	color:white;
+}
+
+#navBar{
+	font-family:'Muli',arial;
+	font-size:18px;
+	position: sticky;
+	top:0;
+	z-index:1;		
+}
+
+#header{
+	background-color:#000;
+	text-align:center; 
+	margin-left:0px;	
+	margin-right:0px;
+}
+
+#searchphoto{
+	margin-top:-15px;
+	height:220px;
+	width:100%;
+	background: url(../images/nnnnnmusic-black-and-white-wallpsaper_090710494.jpg) center center no-repeat;
+	background-size:cover;
+}
+@font-face {
+	font-family:'Lora';
+	src:url(../fonts/Lora-Regular.ttf);
+	font-family:'Muli';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Noto Serif';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Playfair Display';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Raleway';
+	src:url(../fonts/Muli-Regular.ttf)
+}
+
+#searchtext{
+	text-align:center;
+	font-size:20px;
+	font-family:'Muli', arial;
+	color:#FFF;
+	padding-top:40px;
+}
+
+#search{
+	margin-top:10px;
+}
+
+.wel{
+	width:auto;
+	padding:40px;
+	background-color:#000;
+}
+
+.wel p{
+	text-align:center;
+	font-size:20px;
+	font-family:'Muli', arial;
+	color:#FFF;	
+}
+
+#textbox{
+	width:600px;
+	height:35px;
+	opacity:0.8;
+	color:#000;
+	border-color:#CCC;
+}
+.content {
+    background-color:#FFF;
+    padding: 8px;
+	padding-bottom:3px;
+	margin:7px;
+	width:100%;
+	height:250px;
+	
+	-webkit-box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+ 	-moz-box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+	 box-shadow: 1px 10px 20px 5px rgb(0, 0, 0);
+}
+.content:hover {
+	background-color:#000;
+	 color:#FFF;
+	
+}
+#linknew:hover {
+	background-color:#000;
+    color:#FFF;
+}
+.content p{
+	padding-top:8px;	
+}
+
+
+#linknew{
+	text-decoration:none;
+	color:#000;
+	font-family:'Muli', arial;
+	font-weight:bold;
+}
+
+.homepage{
+	background-color:#646464;
+	padding:20px;
+	margin-top:15px;
+}
+
+#newsdiv{
+	height:50px;
+	background-color:#000;
+	width:200px;
+	margin:auto;
+	border-radius:10px;
+	text-align:center;
+	font-family:'Muli', arial;
+	font-size:35px;
+	color:#CCC;
+}
+
+#lyrictoday{
+	background-image:url(../images/f330b5f725608f28b8559c69914147e5.png);
+	background-size:300px;
+	background-repeat:no-repeat;
+	padding:30px 10px;
+	margin-bottom:40px;
+}
+
+.text p {
+  	margin: 5%;
+	font-weight:bold;
+	font-family:'Muli', arial;
+  	color:#FFF;
+}
+
+.text {
+	padding:5px;
+	text-align:center;
+  	margin: 30px;
+  	border: 1px solid black;
+  	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#songtoday{
+	background-color:#000;	
+}
+
+.song p{
+	margin: 4%;
+	font-weight:bold;
+	font-family:'Muli', arial;
+  	color:#FFF;
+	font-size:14px;	
+}
+
+.song{
+	padding:8px;
+	text-align:center;
+	
+}
+.thumbnail{
+	margin:auto;	
+}
+.footer{
+	background-color:#000;
+	color:#CCC;
+	font-family:'Lora',arial;
+	padding:15px;
+	margin:10px 0px;	
+}
+#foottext{
+	padding-top:20px;	
+}
+#socialmedia{
+	padding-left:50px;	
+}
+
+
+@media screen and (max-width:900px){
+	.logo{
+		width:90%;	
+	}
+	#textbox{
+		width:80%;
+	}
+	.content{
+		margin:5px auto;
+		width:80%;
+		height:280px;
+	}
+	#songtoday{
+		margin:5px auto;
+		width:80%;
+	}
+	
+}
+@media screen and (max-width:600px){
+	.logo{
+		width:100%;	
+	}
+	#textbox{
+		width:100%;
+	}
+	.contect{
+		margin:5px auto;
+		width:90%;
+		height:280px;
+	}
+	#songtoday{
+		margin:5px auto;
+		width:90%;
+	}
+	#myBtn {
+		top:60px;
+	}
+	#mySidenav a {
+    	left: -105px;
+	}
+	
+}

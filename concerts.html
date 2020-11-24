@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CONCERTS</title>
+<link rel="stylesheet" type="text/css" href="CSS/concerts.css"/>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="css/jquery.min.js"></script>
+<script src="css/bootstrap.min.js"></script>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+</head>
+
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+	<div id="mySidenav" class="sidenav">
+  <a href="#" id="eng">ENGLISH</a>
+  <a href="#" id="tr">TÜRKÇE</a>
+</div>
+
+<div class="main">
+<div class="container">
+	
+    <div class="row" id="header">
+	<div class="col-md-12">
+        <a href="main.html">
+        	<img src="images/Adsız.jpg" class="logo"/>
+        </a>
+    	</div>
+	</div>
+    
+    <div class="row" id="navBar">
+	<div class="col-md-12">
+    <nav class="navbar navbar-inverse">
+  	<div class="container-fluid">
+   		 <div class="navbar-header">
+         	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>                        
+      		</button>
+	 		<a class="navbar-brand" href="main.html" style="font-size:20px;font-weight:bold;color:#FFF">OWSLA</a>
+    	 </div>
+    	<div class="collapse navbar-collapse" id="myNavbar">
+      		<ul class="nav navbar-nav">
+      			<li class="active"><a href="main.html">HOME</a></li>
+      			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">GENRES<span class="caret"></span></a>
+        			<ul class="dropdown-menu">
+          				<li><a href="electronic.html">ELECTRONIC</a></li>
+          				<li><a href="pop.html">POP</a></li>
+        			</ul>
+     		 	</li>
+                <li><a href="concerts.html">CONCERTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+    		</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="sitemap.html"><span class="glyphicon glyphicon-map-marker"></span> Site Map</a></li>
+			</ul>
+  		</div>
+        </div>
+		</nav>
+	</div>
+	</div>
+    
+    <div class="row benefits">
+    	<div class="col-md-4 benefit-block">
+      		<img src="images/microphone.png" alt="">
+      		<h4>Track your favorite artists</h4>
+      		<p>
+        		Tell us who you want to see live. Easily import your favorite artists from Spotify, Facebook and more.
+      		</p>
+    	</div>
+    	<div class="col-md-4 benefit-block">
+      		<img src="images/calendar.png" alt="">
+      		<h4>Discover concerts near you</h4>
+      		<p>
+        		See which of your favorite artists are playing nearby, and explore personalized concert recommendations.
+      		</p>
+    	</div>
+    	<div class="col-md-4 benefit-block">
+      		<img src="images/ticket.png" alt="">
+      		<h4>Never miss another concert</h4>
+      		<p>
+        		Get instant concert alerts when your favorite artists announce shows in your area, with everything you need to buy tickets. Easy!
+      		</p>
+    	</div>
+  	</div>
+    
+    	<div class="row">
+            <div class="col-md-4">
+                    <div class="nearconcert" id="nearconcerts">
+                    	<div class="concerthead">
+            				<p><b> CONCERTS IN NEAR TIME </b></p>
+                    	</div>
+                        <hr />
+                			<img src="images/concert/maxresdefault.jpg" class="img-responsive" style="width:100%" />
+                        	<div class="concerttext">
+                        		<p><b>DAVID GUETTA</b></p>
+                        		<p>August 18, 2018</p>
+                        		<p>St James Park,Newcastle</p>
+                        	</div>
+                		<hr />
+                			<img src="images/concert/lana-del-rey-tour-927b72e7-d698-42fe-a873-107335463dbd.jpg" class="img-responsive" style="width:100%" />
+                        	<div class="concerttext">
+                        		<p><b>LANA DEL REY</b></p>
+                        		<p>July 8, 2018</p>
+                        		<p>Wembley Stadium, London</p>
+                        	</div>
+                        <hr />
+                			<img src="images/concert/c-north-fest-headliner-2017.jpg" class="img-responsive" style="width:100%" />
+                        	<div class="concerttext">
+                        		<p><b>UMMET OZCAN</b></p>
+                        		<p>June 13, 2018</p>
+                        		<p>Principality Stadium (Millenium Stadium), Cardiff</p>
+                        	</div>
+                    </div>
+        	</div>
+            
+            <div class="col-md-8">
+        		<div class="nowconcert" id="nowconcerts">
+                	<div class="concerthead">
+            			<p><b> CONCERTS IN 2019 </b></p>
+                    </div>	
+                    <hr />
+                    	<img src="images/concert/huge_avatar.jpg" class="img-responsive img-thumbnail" style="width:30%;"  align="left"/>
+                    <div class="concertbody" align="left"> 
+                    	<br />   
+                        <h2>The White Buffalo</h2> 
+                        <p>On tour: no</p>
+						<p>2019 tour dates: 12 concerts</p>
+						<p>Next concert near you: 9 months (Istanbul)</p>
+						<p>33,244 fans tracking concert alerts for this artist.</p>
+                    </div>	
+                </div>
+                
+                <div class="concertevents" id="concertevents">
+                	<div class="concerthead" style="padding-top:17px;">
+            			<p><b> CONCERT UPCOMING EVENTS & LATEST NEWS </b></p>
+                    </div>	
+                    <hr />
+                    <div class="newsbody" >   
+                        <ul>
+                        	<h4>Radiohead Announces 2018 North American Tour</h4>
+                        	<li>Radiohead is returning to North America in 2018 with a 10-stop tour this summer.The group made the announcement on its Twitter account on Tuesday.The British band, with members Thom Yorke, Jonny Greenwood, Colin Greenwood, Ed O’Brien and Philip Selway, will kick off its 2018 tour with a performance on July 7 at Chicago’s United Center.</li>
+                            <h4>Valentine's Day Concerts 2018</h4>
+                            <li>Valentine’s Day is rapidly approaching.That means that those with a special someone will be sizing up options for greeting cards, flowers and chocolate.For those looking for alternatives to dinner dates—or for anyone just looking for a fun mid-week excursion, February 14 is jam-packed with intriguing concert performances.</li>
+                            <h4>Justin Timberlake Announces 2018 Man of the Woods Concert Tour</h4>
+                            <li>It’s shaping up to be a huge 2018 for Justin Timberlake.The pop sensation, who is scheduled to perform at halftime of Super Bowl LII, has announced a tour to go along with the release of his latest album, “Man of the Woods.”Timberlake made the announcement Monday morning via a video he shared on his Instagram account. In the video, Timberlake shared that his time outdoors inspired the album.</li>
+                            <h4>Jingle Ball 2017 </h4>
+                            <li>The #iHeartJingleBall Tour is returning this holiday season with a 12-stop schedule featuring some of the country’s hottest performers.The Tour kicks off in Dallas on Nov. 28 at the American Airlines Center and concludes on Dec. 17 in South Florida at the BB&T Center.The collective lineup features superstars like Taylor Swift, Ed Sheeran, Demi Lovato, Niall Horan and The Chainsmokers as well as Liam Payne, Kesha and others</li>
+                            <h4>The Farewell Effect: Ticket Prices Rise When Bands Announce a Final Tour</h4>
+                            <li>Scarcity drives demand, as they say. And when performers announce their final tour, the opportunity for fans to see their favorite artists in person immediately gets an expiration date.The result? A spike in ticket prices.Vivid Seats analyzed ticket price data around four performers who recently announced the their next tour will be their last: Elton John, Paul Simon, Slayer and Lynyrd Skynyrd.In each case, ticket prices immediately jumped up.</li>
+                        </ul>
+                    </div>	
+                </div>
+        	</div> 
+                           
+    	</div>
+  
+</div>
+</div>  
+
+<div class="container">
+	<div class="footer">
+        <div class="row">
+        	<div class="col-md-6" style="padding:auto">
+        		<div id="footimg">
+                	<img src="images/10100_575057162533880_14653585222223_n.jpg" class="img-responsive" width="20%" align="left"/>
+                </div>	
+                <div id="foottext">
+                	<p>© Copyright Time Inc. (UK) Ltd. OWSLA is part of the Time Inc. (UK) Ltd. All rights reserved OWSLA is part of the Time Inc. (UK) Ltd Entertainment Network</p>
+                    <p>1185 Avenue of the Americas, 10036, New York</p>
+                </div>
+            </div> 
+            
+            <div class="col-md-6" style="padding:auto">
+        		<div id="socialmedia">
+                <br/>
+                <a href="#" class="fa fa-instagram"></a>  Stalk us.
+                &emsp;
+                <a href="#" class="fa fa-facebook"></a>  Like us.
+				&emsp;
+                <a href="#" class="fa fa-twitter"></a>  Follow us.
+                <br/>
+                <br/>
+                But we really hope you love us.
+                </div>
+            </div> 
+        </div>
+        
+    </div>
+</div>
+
+  
+</body>
+</html>

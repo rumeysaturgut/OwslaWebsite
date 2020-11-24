@@ -1,0 +1,138 @@
+#myBtn {
+  display: none;
+  position: fixed;
+	top:0px;
+  right: 17px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#363;
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -90px;
+    transition: 0.3s;
+    padding: 10px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#tr {
+    top: 20px;
+    background-color:#F00;
+	z-index:88;
+}
+
+#eng {
+    top: 80px;
+   background-color:#009;
+   z-index:88;
+}
+.fa {
+    padding:5px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram{
+	background:#936;
+	color:white;
+}
+
+#navBar{
+	font-family:'Muli',arial;
+	font-size:18px;
+	position: sticky;
+	top:0;
+	z-index:1;		
+}
+
+#header{
+	background-color:#000;
+	text-align:center; 
+	margin-left:0px;	
+	margin-right:0px;
+}
+@font-face {
+	font-family:'Lora';
+	src:url(../fonts/Lora-Regular.ttf);
+	font-family:'Muli';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Noto Serif';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Playfair Display';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Raleway';
+	src:url(../fonts/Muli-Regular.ttf)
+}
+.footer{
+	background-color:#000;
+	color:#CCC;
+	font-family:'Lora',arial;
+	padding:15px;
+	margin:10px 0px;	
+}
+#foottext{
+	padding-top:20px;	
+}
+#socialmedia{
+	padding-left:50px;	
+}
+#sitemap h1{
+	text-align:center;
+	padding-bottom:15px;
+}
+.panel-group .panel-body{
+	background-color:#FFC;	
+}
+
+@media screen and (max-width:900px){
+	.logo{
+		width:90%;	
+	}	
+}
+@media screen and (max-width:600px){
+	.logo{
+		width:100%;	
+	}
+	#myBtn {
+		top:60px;
+	}
+	#mySidenav a {
+    	left: -105px;
+	}
+	
+}

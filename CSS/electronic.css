@@ -1,0 +1,265 @@
+#myBtn {
+  display: none;
+  position: fixed;
+	top:0px;
+  right: 17px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#363;
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -90px;
+    transition: 0.3s;
+    padding: 10px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#tr {
+    top: 20px;
+    background-color:#F00;
+	z-index:88;
+}
+
+#eng {
+    top: 80px;
+   background-color:#009;
+   z-index:88;
+}
+.fa {
+    padding:5px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram{
+	background:#936;
+	color:white;
+}
+
+#navBar{
+	font-family:'Muli',arial;
+	font-size:18px;
+	position: sticky;
+	top:0;
+	z-index:1;		
+}
+
+#header{
+	background-color:#000;
+	text-align:center; 
+	margin-left:0px;	
+	margin-right:0px;
+}
+
+@font-face {
+	font-family:'Lora';
+	src:url(../fonts/Lora-Regular.ttf);
+	font-family:'Muli';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Noto Serif';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Playfair Display';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Raleway';
+	src:url(../fonts/Muli-Regular.ttf)
+}
+
+#text{
+	margin:10px 30px;
+	text-align:center;
+	font-size:16px;
+	font-family:'Muli', arial;
+	color:#FFF;	
+}
+
+#text h2{
+	border-bottom-color:#999;
+	border-bottom-style:solid;	
+	padding-bottom:10px;
+}
+
+#tabs{
+	background-color:#333;	
+	width:80%;
+	margin:auto;
+}
+
+#tabshead{
+	background-color:#966;
+	margin-top:10px;
+}
+#tabshead a{
+	font-size:20px;
+	color:#000;
+	font-family:'Muli';	
+	font-weight:bold;
+}
+#tabshead a:hover{
+	font-size:20px;
+	color:#FFF;
+	font-weight:bold;
+	background-color:#306;
+}
+.tab-content{
+	padding:0px 35px;	
+}
+.panelartist{
+	background-color:#FFF;
+	margin:10px -10px;
+	padding:8px;
+	margin-bottom:20px;
+}
+#headerp{
+	background-color:#FFF;
+	font-size:19px;
+	font-family:'Muli';
+	font-weight:bold;
+	text-align:center;	
+	border-bottom:solid 1px #666;
+	padding:8px;
+	margin-bottom:15px;
+}
+.artistdiv{
+	border:solid #CCC 2px;
+	font-family:'Muli',arial;
+	font-weight:bold;
+	text-align:center;
+	font-size:16px;
+	color:#000;	
+	margin:0px 10px;	
+}
+.artistdiv:hover{
+	background-color:#000;
+	color:#FFF;
+}
+.artistdiv p{
+	 padding-top:8px;
+}
+#information{
+
+	padding:7px;
+	border:solid #CCC 2px;
+	font-family:'Muli',arial;
+	font-size:16px;
+	color:#000;	
+	margin:0px 10px;
+	border-top:hidden;
+	margin-bottom:10px;	
+}
+
+.panelalbum{
+	background-color:#FFF;
+	margin:10px -10px;
+	padding:8px;
+}
+.albumdiv{
+	border:solid #CCC 2px;
+	font-family:'Muli',arial;
+	font-weight:bold;
+	text-align:center;
+	font-size:16px;
+	color:#000;	
+	margin:10px 10px;		
+}
+.albumdiv:hover{
+	background-color:#000;
+	color:#FFF;
+}
+.albumdiv p{
+	 padding-top:8px;
+}
+.panelsong{
+	background-color:#FFF;
+	margin:10px -10px;
+	padding:8px;
+}
+.songname{
+	font-family:'Muli',arial;
+	font-size:16px;
+	color:#000;
+	padding-top:8px;	
+}
+.footer{
+	background-color:#000;
+	color:#CCC;
+	font-family:'Lora',arial;
+	padding:15px;
+	margin:10px 0px;	
+}
+#foottext{
+	padding-top:20px;	
+}
+#socialmedia{
+	padding-left:50px;	
+}
+
+@media screen and (max-width:900px){
+	.logo{
+		width:90%;	
+	}
+	#artistcol{
+		margin:15px 0px;
+		padding:10px;
+	}
+}
+@media screen and (max-width:600px){
+	.logo{
+		width:100%;	
+	}
+	#myBtn {
+		top:60px;
+	}
+	#mySidenav a {
+    	left: -105px;
+	}
+	#artistcol{
+		margin:0px 0px;
+		width:100%;
+	}
+	#information{
+		width:auto;	
+		height:auto;
+	}
+	#tabs{
+		width:100%;
+	}
+	audio{
+		width:60%;	
+	}
+}

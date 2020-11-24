@@ -1,0 +1,217 @@
+#myBtn {
+  display: none;
+  position: fixed;
+	top:0px;
+  right: 17px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#363;
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -90px;
+    transition: 0.3s;
+    padding: 10px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#tr {
+    top: 20px;
+    background-color:#F00;
+	z-index:88;
+}
+
+#eng {
+    top: 80px;
+   background-color:#009;
+   z-index:88;
+}
+.fa {
+    padding:5px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram{
+	background:#936;
+	color:white;
+}
+
+#navBar{
+	font-family:'Muli',arial;
+	font-size:18px;
+	position: sticky;
+	top:0;
+	z-index:1;		
+}
+
+#header{
+	background-color:#000;
+	text-align:center; 
+	margin-left:0px;	
+	margin-right:0px;
+}
+
+@font-face {
+	font-family:'Lora';
+	src:url(../fonts/Lora-Regular.ttf);
+	font-family:'Muli';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Noto Serif';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Playfair Display';
+	src:url(../fonts/Muli-Regular.ttf)
+	font-family:'Raleway';
+	src:url(../fonts/Muli-Regular.ttf)
+}
+
+.benefits {
+	border:solid 1px #CCCCCC;
+    color: #999;
+    overflow: hidden;
+    background-color: #fff;
+}
+.benefits .benefit-block {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.benefits .benefit-block img {
+    height: 70px;
+}
+.benefits .benefit-block h4 {
+    color: #3a3a3a;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.benefits .benefit-block p {
+    margin-bottom: 0;
+}
+
+
+.nearconcert{
+	background-color:#F03;
+	margin-top:10px;
+	width:auto;
+	font-family:'Muli',arial;
+	font-size:14px;
+	color:#FFF;
+	text-align:center;
+	padding:10px;
+}
+.nearconcert img{
+	padding:0px 40px;	
+}
+.concerttext{
+	padding:15px;
+	padding-bottom:0px;	
+}
+.concerthead{
+	padding-top:8px;
+	font-family:'Muli',arial;
+	font-size:20px;
+	color:#FFF;
+	text-align:center;	
+}
+
+.nowconcert{
+	background-color:#000;
+	margin-top:10px;
+	width:auto;
+	font-family:'Muli',arial;
+	font-size:14px;
+	color:#FFF;
+	text-align:center;
+	padding:10px;
+	padding-bottom:60px;	
+}
+.nowconcert img{
+	margin:0px 40px;
+}
+
+.concertevents{
+	background-color:#000;
+	margin-top:10px;
+	color:#CCC;
+}
+.newsbody{
+	padding-bottom:20px;	
+}
+.newsbody h4{
+	color:#F03;
+}
+.footer{
+	background-color:#000;
+	color:#CCC;
+	font-family:'Lora',arial;
+	padding:15px;
+	margin:10px 0px;	
+}
+#foottext{
+	padding-top:20px;	
+}
+#socialmedia{
+	padding-left:50px;	
+}
+
+
+@media screen and (max-width:900px){
+	.logo{
+		width:90%;	
+	}
+}
+@media screen and (max-width:600px){
+	.logo{
+		width:100%;	
+	}
+	#myBtn {
+		top:60px;
+	}
+	#mySidenav a {
+    	left: -105px;
+	}
+	.nearconcert{
+		width:100%;
+	}
+	.concertbody{
+		text-align:right;	
+	}
+	.newsbody{
+		padding:8px 8px;
+	}
+}
